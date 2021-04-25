@@ -8,7 +8,7 @@ contract ToDoApp {
     address author;
     string title;
     string description;
-    bool activate;
+    bool active;
   }
 
   Task[] public tasks;
